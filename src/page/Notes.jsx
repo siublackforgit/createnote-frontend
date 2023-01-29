@@ -9,7 +9,7 @@ const Notes = () => {
   }])
 
   useEffect(() => {
-    fetch("http://localhost:8000/notes").then(res => {
+    fetch("https://createnote-api.onrender.com/notes").then(res => {
       if (res.ok) {
         return res.json()
       }

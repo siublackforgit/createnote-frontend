@@ -28,7 +28,7 @@ const CreateNotes = () => {
             content: input.content
 
         }
-        axios.post("http://localhost:8000/create", newNote)
+        axios.post("https://createnote-api.onrender.com/create", newNote)
             .then(() => {
                 console.log("data inserted")
             })
