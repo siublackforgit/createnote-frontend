@@ -1,0 +1,23 @@
+.form-box{
+    padding:0px;
+}
+
+.form-content{
+    margin:10px 0px;
+    
+}
+
+.form-title{
+    text-align: center;
+}
+
+.form-group{
+    box-sizing: content-box;
+    margin:0 5px;
+}
+
+@media screen and (max-width:768px) {
+    .btn{
+        width: 100%;
+    }
+}
