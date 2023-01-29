@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from './page/Home'
 import Notes from './page/Notes'
 import CreateNotes from './page/CreateNotes';
-
+import "./App.css"
 
 function App() {
   return (
