@@ -3,7 +3,7 @@ import "./Home.css"
 const Home = () => {
   return (
     <div className='Home container'>
-        <h1 className='Home-title'>Ricky Yeung 's small Mern Project</h1>
+        <h1 className='Home-titles'>Ricky <span>Yeung</span> 's small Mern Project</h1>
         <p>This is my small Mern Project that include frontend and backend
           <br />
           <br />
