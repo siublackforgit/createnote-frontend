@@ -11,6 +11,7 @@ const Notes = () => {
   useEffect(() => {
     fetch("https://createnote-api.onrender.com/notes").then(res => {
       if (res.ok) {
+        console.log(res)
         return res.json()
       }
     }).then(jsonRes => setNotes(jsonRes))
